@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ul, #myUL {
+    list-style-type: none;
+    margin-left: 20px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.caret {
+    cursor: pointer;
+    user-select: none; /* Prevent text selection */
+}
+.caret::before {
+    content: "\21D2";
+    color: #a6a6a6;
+    display: inline-block;
+
+}
+.caret-down::before {
+    transform: rotate(90deg);
+}
+.nested {
+    display: none;
+}
+.notnested{
+    user-select: none;
+}
+.active {
+    display: block;
+
+}
