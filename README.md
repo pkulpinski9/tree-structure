@@ -22,7 +22,7 @@ User:
 ## Screenshots
 
 Widok po zalogowaniu jako administrator:
-![Screenshot](ss-admin.PNG)
+![Screenshot](ss-admin.png)
 
 Widok po zalogowaniu jako user:
-![Screenshot](ss-user.PNG)
+![Screenshot](ss-user.png)
